@@ -1,5 +1,11 @@
 # hello
 
+## 0.0.4
+
+### Patch Changes
+
+- 1f9eca1: good
+
 ## 0.0.3
 
 ### Patch Changes
