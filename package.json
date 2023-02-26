@@ -1,18 +1,29 @@
 {
-    "name": "@debater-coder/hello",
-    "license": "MIT",
-    "version": "1.0.0",
-    "main": "dist/index.js",
-    "module": "dist/index.mjs",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsup index.ts --format cjs,esm --dts",
-        "lint": "tsc",
-        "release": "pnpm build && changeset publish"
-    },
-    "devDependencies": {
-        "@changesets/cli": "^2.26.0",
-        "tsup": "^6.6.3",
-        "typescript": "^4.9.5"
-    }
+  "name": "@debater-coder/hello",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "description": "Hello, World!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debater-coder/hello.git"
+  },
+  "homepage": "https://github.com/debater-coder/hello",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "pnpm lint && pnpm test && pnpm build",
+    "release": "pnpm ci && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "prettier": "^2.8.4",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.1"
+  }
 }
