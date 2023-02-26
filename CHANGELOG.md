@@ -1,5 +1,11 @@
 # hello
 
+## 0.0.5
+
+### Patch Changes
+
+- de3541b: bump
+
 ## 0.0.4
 
 ### Patch Changes
