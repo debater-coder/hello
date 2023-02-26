@@ -1,0 +1,5 @@
+---
+"hello": patch
+---
+
+new patch
