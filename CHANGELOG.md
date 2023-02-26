@@ -1,5 +1,21 @@
 # hello
 
+## 1.0.0
+
+### Major Changes
+
+- ea70335: # 👋 Hello
+
+  Hello, World!
+
+  ## Usage
+
+  ```ts
+  import { hello } from "@debater-coder/hello";
+
+  hello();
+  ```
+
 ## 0.0.5
 
 ### Patch Changes
