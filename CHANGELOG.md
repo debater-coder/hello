@@ -1,5 +1,11 @@
 # hello
 
+## 1.0.1
+
+### Patch Changes
+
+- fa4961b: Added tests
+
 ## 1.0.0
 
 ### Major Changes
